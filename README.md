@@ -1,3 +1,3 @@
 # participant-php
 PHP Beginning Studies <br>
-MySQL kullanılarak oluşturulan veriler ile kullanıcıları görüntüleyen bir program yazılacak. Projede yönetim ve kullanıcı ekranları farklı oluşturularak yöneticiye yetkiler verilecek.
+The program that displays users with data created by users with using MySQL will be written. The project is going to authorize different actions to the participants and admins.  

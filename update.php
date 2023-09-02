@@ -9,7 +9,8 @@
   <body>
     <div class='row text-center'>
     <?php
-
+    require_once 'navbar.php';
+    require_once 'background.php'; 
     require_once('connection.php');
 
     if(isset($_POST['name'])){
@@ -50,16 +51,27 @@
     // echo "<pre>"; print_r($users);
 ?>
 
-<h1>KAYIT GÜNCELLEME</h1>
+<form style="text-align: center" method="post">
+<div class="container mt-5">
+    <div class="row justify-content-center ">
+      <div class="col-md-6 ">
+        <div class="card">
+          <div class="card-body ">
+            <br>
+            <h1 class="text-xl text-center font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
+            KAYIT GÜNCELLEME
+            </h1> 
+            <form style="text-align:center" method='POST'>
 
-<form method='POST'>
-    <p>user name:  <input type='text' name='name'  value='<?php echo $user['name'];  ?>'></p>
-    <p>user email: <input type='text' name='email' value='<?php echo $user['email']; ?>'></p>
-    <p><input type='submit' value='GÜNCELLE'></p>
+<p>Kullanıcı Adı:   <input type='text' name='name' value='<?php echo $user['name'];?>'><a></p><br>
+<p>Kullanıcı Eposta:<input type='text' name='email'value='<?php echo $user['name'];?>'></a></p><br>
+<p><input type='submit' value='Kayıt Ekle'></p>
+
 </form>
-
+<br>
 <p><a class="btn btn-primary" href='listing.php' role="button">Listeye Dön</a></p>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </div>  
+
 </body>
 </html>

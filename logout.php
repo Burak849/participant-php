@@ -10,4 +10,4 @@ if (isset($_POST['email'])){
     }
     ?>
     <h1>OTURUM SONLANDI</h1>
-    <p><a href="login.php"><strong>Yeniden Giris Yap</strong></a></p>
+    <p><a href="login.php"><strong>Yeniden Giris Yapınız</strong></a></p>

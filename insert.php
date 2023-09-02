@@ -23,33 +23,33 @@ require_once 'background.php';
         <div class="card">
           <div class="card-body ">
             <h1 class="text-xl text-center font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
-              Kayıt Değiştir
+              Kayıt Ekle
             </h1> 
             <form style="text-align:center" method='POST'>
 
-<p>Adı:   <input type='text' name='email'><a></p><br>
-<p>Eposta:<input type='password' name='parola'></a></p><br>
+<p>Eposta:   <input type='text' name='email'><a></p><br>
+<p>Parola:<input type='text' name='parola'></a></p><br>
 <p><input type='submit' value='Kayıt Ekle'></p>
 
 </form>
           
 
 <?php
-if ( isset($_POST['adi'])){
+if ( isset($_POST['email'])){
 
 
 //! KAYIT EKLEME
 require "connection.php";
 
 
-$name  = $_POST['adi'];
-$email = $_POST['eposta'];
+$email  = $_POST['email'];
+$parola = $_POST['parola'];
 
-$sql = "INSERT INTO users (name, email) VALUES (:name, :email)";
+$sql = "INSERT INTO users (email, parola) VALUES (:email, :parola)";
 $SORGU = $DB->prepare($sql);
 
-$SORGU->bindParam(':name', $name);
 $SORGU->bindParam(':email', $email);
+$SORGU->bindParam(':parola', $parola);
 
 $SORGU->execute();
 echo "Kullaıcı Eklendi"; 

@@ -19,19 +19,19 @@
         <div class="card">
             <div class="card-body">
             <h1 class="text-xl text-center font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
-              Hakkımızda
+            <strong><i>Hakkımızda</i></strong>
             </h1> 
-            <hr>
-                <div>
-                <p><h2>🌟 YemekHane - Lezzet Durağı 🌟</h2>
+            <hr class="bg-dark">
+            <div>
+                <p><h2>🌟 BreadHane - Lezzet Durağı 🌟</h2></p>
 
                 <h6>🍽️ Lezzetin Yeni Adresi! 🍽️</h6></p>
 
-Siz de gerçek bir ziyafetin tadını çıkarmak istemez misiniz? [Marka Adınız], yemekhane deneyiminizi tamamen yeniden tanımlıyor.
+Siz de gerçek bir ziyafetin tadını çıkarmak istemez misiniz? BreadHane, yemekhane deneyiminizi tamamen yeniden tanımlıyor.
 
 <p><h6>✨ Kalite ve Lezzet Bir Arada ✨</h6></p>
 
-Günlük hayatın koşturmacasında lezzetli ve sağlıklı yemeklere ulaşmak artık daha kolay. [Marka Adınız], her öğünde taze ve özenle hazırlanmış yemekler sunuyor. Mutfak ustalarımızın elinden çıkan yemekler, damaklarınızı şenlendirecek. 
+Günlük hayatın koşturmacasında lezzetli ve sağlıklı yemeklere ulaşmak artık daha kolay. BreadHane, her öğünde taze ve özenle hazırlanmış yemekler sunuyor. Mutfak ustalarımızın elinden çıkan yemekler, damaklarınızı şenlendirecek. 
 
 <p><h6>🍏 Sağlıklı ve Dengeli Menü Seçenekleri 🍏</h6></p>
 
@@ -39,7 +39,7 @@ Sağlığınızı önemsiyoruz. Menümüzde bulunan çeşitli seçenekler, sağl
 
 <p><h6>🌞 Sosyal İçerik, Keyif Dolu Anlar 🌞</h6></p>
 
-[Marka Adınız] yemekhanesi, sadece yemek yemekle sınırlı değil. Arkadaşlarınızla veya iş arkadaşlarınızla keyifli sohbetler ederek dinlenme molasının tadını çıkarabilirsiniz. Sosyal etkileşimin yeni adresi burası! 
+BreadHane yemekhanesi, sadece yemek yemekle sınırlı değil. Arkadaşlarınızla veya iş arkadaşlarınızla keyifli sohbetler ederek dinlenme molasının tadını çıkarabilirsiniz. Sosyal etkileşimin yeni adresi burası! 
 
 <p><h6>🎉 Özel Etkinlikler ve Catering 🎉</h6></p>
 

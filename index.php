@@ -8,15 +8,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <style>
-    /* Define a class to set the background image */
+ 
     .bg-image {
       background-image: url('https://e1.pxfuel.com/desktop-wallpaper/395/382/desktop-wallpaper-lycee-anime-school-lunchroom.jpg');
       background-size: cover;
       background-position: center;
-      height: 100vh; /* Full height of the viewport */
+      height: 100vh; 
     }
-    
-    /* Center the card horizontally and vertically */
     .center-card {
       position: absolute;
       top: 50%;
